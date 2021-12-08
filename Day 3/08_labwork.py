@@ -3,7 +3,7 @@ for i in range(3):
     user_input = input("Enter your name : ")
     password = input("Enter your password : ")
 
-    if (user_input == "Aakash" ) and (password == 123):
+    if (user_input == "Aakash" ) and (password == "123"):
         print("Logged in successful")
         break
     else :
