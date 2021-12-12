@@ -1,11 +1,10 @@
-def sum(x, y, z):
-    if x == y or y == z or x==z:
-        sum = 0
-    else:
-        sum = x + y + z
-    return sum
+#
+num1 = int(input("Enter the first number"))
+num2 = int(input("Enter the second number"))
+num3 = int(input("Enter the Third number"))
+if(num1 == num2 and num2 == num3 and num3 == num1):
+    print("The sum of the number zero")
+else:
+    sum = num1+num2+num3
+    print("the sum of three integer is:" ,sum)
 
-print(sum(4, 1, 4))
-print(sum(5, 2, 5))
-print(sum(7, 2, 7))
-print(sum(3, 4, 5))
