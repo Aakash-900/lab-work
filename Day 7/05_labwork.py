@@ -1,3 +1,4 @@
+#add an item in tuple
 a = ('2',)
 items = ['o', 'k', 'd', 'o']
 
